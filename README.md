@@ -55,9 +55,7 @@ Show the git log in Notepad.
 
 Show the output of (all?) DOS commands in Notepad.
 
-    >set "_dpath=C:\logs\%date:~10,4%-%date:~4,2%-%date:~7,2%" ^
-     mkdir "%_dpath%" ^
-     copy /Z /Y /V "C:\temp\*.log" "%_dpath%\*" | show
+    >set "_dpath=C:\logs\%date:~10,4%-%date:~4,2%-%date:~7,2%" & mkdir "%_dpath%" & copy /Z /Y /V "C:\temp\*.log" "%_dpath%\*" | show
 
 Show the current directory in Notepad.
 
@@ -66,10 +64,17 @@ Show the current directory in Notepad.
 A note about StdIn vs. StdErr
 -----------------------------
 
-The `show` utility will only show its stdin in Notepad. For instance, the following statement will not include the error message in Notepad.
+The `show` utility will only show its stdin in Notepad. For instance, the following statement will not include the error message in Notepad. For instance, running the following:
 
-    >dir c:\DoesNotExist | show
+    >dir C:\DoesNotExist | show
+
+Displays `File Not Found` in the console window and the following in Notepad.
+
+     Volume in drive C is mymachine
+     Volume Serial Number is 1234-ABCD
+    
+     Directory of C:\
 
 So, if there is a potential error you would want to see, use the following:
 
-    >dir c:\DoesNotExist 2>&1 | show
+    >dir cC:\DoesNotExist 2>&1 | show
