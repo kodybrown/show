@@ -67,6 +67,7 @@ A note about StdIn vs. StdErr
 The `show` utility will only show its stdin in Notepad. For instance, the following statement will not include the error message in Notepad. For instance, running the following:
 
     >dir C:\DoesNotExist | show
+    File Not Found
 
 Displays `File Not Found` in the console window and the following in Notepad.
 
@@ -75,6 +76,15 @@ Displays `File Not Found` in the console window and the following in Notepad.
     
      Directory of C:\
 
-So, if there is a potential error you would want to see, use the following:
+So, if there is a potential error, that you would want to see, use the following:
 
-    >dir cC:\DoesNotExist 2>&1 | show
+    >dir C:\DoesNotExist **2>&1** | show
+
+Which will show the following, complete response in Notepad.
+
+     Volume in drive C is mymachine
+     Volume Serial Number is 1234-ABCD
+    
+     Directory of C:\
+    
+    File Not Found
