@@ -3,6 +3,10 @@ A neat utility to allow piping standard output to notepad as in `dir | show`..
 
 > If Notepad2.exe is available in the PATH, that will be used instead.
 
+Download
+--------
+Download a compiled version of `show.exe` from my public [Dropbox share][1].
+
 Command-line arguments
 ----------------------
 
@@ -88,3 +92,6 @@ Which will show the following, complete response in Notepad.
      Directory of C:\
     
     File Not Found
+
+
+[1]https://dl.dropboxusercontent.com/u/123747/downloads/show.exe
