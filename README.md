@@ -5,7 +5,7 @@ A neat utility to allow piping standard output to notepad as in `dir | show`..
 
 Download
 --------
-Download a compiled version of `show.exe` from my public [Dropbox share][1].
+Download a compiled version of `[show.exe](https://dl.dropboxusercontent.com/u/123747/downloads/show.exe)` from my public Dropbox share.
 
 Command-line arguments
 ----------------------
@@ -93,5 +93,3 @@ Which will show the following, complete response in Notepad.
     
     File Not Found
 
-
-[1]https://dl.dropboxusercontent.com/u/123747/downloads/show.exe
