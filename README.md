@@ -6,10 +6,10 @@ A neat utility to allow piping standard output to notepad as in `dir | show`..
 Download
 --------
 
-Download a compiled version of `show.exe`:
+Download a compiled version of `show.exe` from my public Dropbox share:
 
- * `show.exe` for .net 2.0 [exe](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net20%29.exe)|[7z](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net20%29.exe.7z)|[zip](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net20%29.exe.zip)
- * `show.exe` for .net 4.5.2 [exe](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net452%29.exe)|[7z](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net452%29.exe.7z)|[zip](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net452%29.exe.zip)
+ * show.exe for .Net 2.0 [exe](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net20%29.exe) | [7z](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net20%29.exe.7z) | [zip](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net20%29.exe.zip)
+ * show.exe for .Net 4.5.2 [exe](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net452%29.exe) | [7z](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net452%29.exe.7z) | [zip](https://dl.dropboxusercontent.com/u/123747/downloads/show%28.net452%29.exe.zip)
 
 Command-line arguments
 ----------------------
